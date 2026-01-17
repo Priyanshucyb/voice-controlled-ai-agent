@@ -48,7 +48,7 @@ voice-controlled-ai-agent/
 ---
 
 ## ▶️ How to Run the Project
-1. Clone the repository:git clone https://github.com/your-username/voice-controlled-ai-agent.git
+1. Clone the repository:git clone (https://github.com/Priyanshucyb/voice-controlled-ai-agent.git)
 
 cd voice-controlled-ai-agent
 
