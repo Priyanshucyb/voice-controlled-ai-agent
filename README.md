@@ -36,3 +36,59 @@ Voice Input → Intent Detection → Action Mapping → Droidrun Execution
 ---
 
 ## 📂 Project Structure
+voice-controlled-ai-agent/
+├── app.py
+├── voice_input.py
+├── intent_detector.py
+├── action_mapper.py
+├── droidrun_client.py
+├── requirements.txt
+├── README.md
+
+
+
+---
+
+## ▶️ How to Run the Project
+1. Clone the repository:git clone https://github.com/your-username/voice-controlled-ai-agent.git
+
+cd voice-controlled-ai-agent
+
+
+2. Install dependencies:pip install -r requirements.txt
+
+   
+3. Run the AI agent:python app.py
+
+4. 
+4. Try voice commands such as:
+- cab book kar  
+- attendance dikhao  
+- wifi on kar do  
+
+---
+
+## 🎯 Sample Output
+Bol bhai...
+You said: cab book kar
+Intent: TRAVEL
+Action: {'app': 'CabApp', 'action': 'BOOK_CAB'}
+[Droidrun MOCK] CabApp -> BOOK_CAB executed
+
+
+---
+
+## 🔮 Future Scope
+- Integration with real Droidrun cloud APIs  
+- Execution on real mobile devices  
+- Learning-based intent detection  
+- Wake-word support  
+- Multi-language support  
+
+---
+
+## 🏆 Hackathon Note
+This project is submitted as part of Round 1 (Exploration & Ideation). It demonstrates a complete AI agent workflow and validates mobile automation feasibility using Droidrun mock services. Real device execution will be implemented in subsequent rounds.
+
+
+
